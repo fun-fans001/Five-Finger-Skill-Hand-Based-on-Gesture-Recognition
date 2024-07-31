@@ -1,1 +1,3 @@
 # Five-Finger-Skill-Hand-Based-on-Gesture-Recognition
+
+five-fingered Skill Hand Based on Gesture Recognition, using a USB camera to capture video stream data, and Model-based Reasoning application using Kria KR260 FPGA board. The gesture recognition results support six gestures, namely "1" - "2" - "3" -4 "-" 5 "-" good ". The process of gesture inference and calculation relies on opencv and mediapipe. The gesture recognition results are transmitted to the Arduino board through the serial port and driving the pca9685 module to control the rotation of multiple servos, enabling the skill hand to make corresponding action instructions based on the gesture recognition results.
